@@ -45,7 +45,7 @@ markdown
 
 # Deployed Backend 
 ```
-https://backendsayabundar-658567093443.asia-southeast2.run.app
+https://backendsayabundar-658567093443.asia-southeast2.run.app [Note: This Link Currently Unaccessible Due to Expired Billing Account]
 ```
 
 # Frontend Repository
