@@ -1,8 +1,16 @@
-FROM node:18.17.1
+FROM node:16
 WORKDIR /app
-ENV PORT 3000
-ENV MODEL_URL 'https://storage.googleapis.com/submissionmlgc-bucketria/submissions-model/model.json'
-COPY . .
+
+COPY package*.json ./
+
 RUN npm install
-EXPOSE 3000
-CMD [ "npm", "run", "start"]
+
+COPY . .
+
+ENV APP_PORT=8080
+ENV MODEL_URL="[MODEL URL]"
+ENV PROJECT_ID="[PROJECT ID]"
+
+CMD [ "npm", "start" ]
+
+EXPOSE 8080
