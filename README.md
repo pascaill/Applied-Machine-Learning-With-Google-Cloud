@@ -1,9 +1,8 @@
 # Tampilan Aplikasi 
-```
+
+
 ![Capturelol](https://raw.githubusercontent.com/pascaill/Deteksi-Kanker-Backend-API/master/Capturelol.PNG)
 
-
-```
 # Struktur Folder
 
 ```
