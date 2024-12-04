@@ -32,7 +32,7 @@ README.md
 markdown
 
 - Open Cloud Console
-- git clone [This Repository]
+- git clone https://github.com/pascaill/Deteksi-Kanker-Backend-API
 - gcloud builds submit --tag gcr.io/[PROJECT ID]/[PROJECT DIRECTORY]
 - gcloud run deploy backend-mlgc \
 --image gcr.io/[PROJECT ID]/[PROJECT DIRECTORY] \
