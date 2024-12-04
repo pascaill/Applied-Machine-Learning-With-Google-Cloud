@@ -26,7 +26,7 @@ README.md
 ```
 
 
-# Cara Deploy
+# Cara Deploy Menggunakan Layanan Cloud Run
 
 ```
 markdown
@@ -44,4 +44,9 @@ markdown
 ```
 
 # Deployed Backend 
+```
+https://backendsayabundar-658567093443.asia-southeast2.run.app
+```
+
+# Frontend Repository
 
