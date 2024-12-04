@@ -1,4 +1,4 @@
-const { Firestore } = require('@google-cloud/firestore');
+//////*const { Firestore } = require('@google-cloud/firestore');
 
 async function getAllData() {
     const db = new Firestore();
@@ -8,4 +8,4 @@ async function getAllData() {
     return allData;
 }
 
-module.exports = getAllData;
+module.exports = getAllData;*//// not used
